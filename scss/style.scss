@@ -1116,7 +1116,6 @@ section {
     }
 
     .main__container {
-        margin-left: 100px;
 
         .info {
 
@@ -1190,6 +1189,7 @@ section {
     }
 
     .box__two__container {
+        margin-top: 300px;
         margin-top: 100px;
 
         h2,
@@ -1407,13 +1407,9 @@ section {
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:300px) {
     .container {
         max-width: 375px;
         margin: auto;
-    }
-
-    .main__container{
-        margin-left: 0;
     }
 }
